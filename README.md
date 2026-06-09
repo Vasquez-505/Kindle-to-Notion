@@ -6,8 +6,7 @@ It scrapes directly from `read.amazon.com` or parses `My Clippings.txt` from a U
 
 ---
 
-<!-- Add a screenshot of your Notion database with synced highlights here once set up -->
-<!-- Example: ![Notion highlights page](screenshot.png) -->
+![Second Brain — Notion gallery view with synced Kindle highlights](kindle-to-notion-pic.png)
 
 ---
 
