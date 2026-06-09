@@ -1,0 +1,50 @@
+# ── Secrets & personal data ──────────────────────────────────────────────────
+.env
+amazon_cookies.json
+synced_hashes.json
+
+# ── Personal library content (not part of the public tool) ───────────────────
+book_highlights/
+notes/
+
+# ── Personal AI / MCP configuration ─────────────────────────────────────────
+CLAUDE.md
+.claude/
+.mcp.json
+
+# ── One-off maintenance scripts ───────────────────────────────────────────────
+migrate.py
+fix_books.py
+start_notion_mcp.py
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Tooling ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
