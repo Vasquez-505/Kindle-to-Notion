@@ -197,4 +197,4 @@ kindle-to-notion/
 
 ## License
 
-MIT
+[MIT](LICENSE) - Copyright (c) 2026 Pedro Vasques
