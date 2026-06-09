@@ -47,11 +47,9 @@ def watch(
 
 
 def _get_current_drives() -> set[str]:
-    return {p.device for p in psutil.disk_partitions(all=False)}
+    return {p.mountpoint for p in psutil.disk_partitions(all=False)}
 
 
-def _find_clippings(drive_device: str) -> pathlib.Path | None:
-    # psutil returns e.g. "E:\\" on Windows
-    drive_path = pathlib.Path(drive_device)
-    clippings = drive_path / CLIPPINGS_RELATIVE
+def _find_clippings(mountpoint: str) -> pathlib.Path | None:
+    clippings = pathlib.Path(mountpoint) / CLIPPINGS_RELATIVE
     return clippings if clippings.exists() else None

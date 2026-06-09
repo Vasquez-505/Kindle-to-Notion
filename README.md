@@ -70,7 +70,11 @@ To get the **Database ID**: open the database in your browser. The URL looks lik
 Copy `.env.example` to `.env` and fill in your values:
 
 ```bash
+# macOS / Linux
 cp .env.example .env
+
+# Windows
+copy .env.example .env
 ```
 
 ```ini
