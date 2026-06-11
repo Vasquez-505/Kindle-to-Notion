@@ -12,14 +12,14 @@ It scrapes directly from `read.amazon.com` or parses `My Clippings.txt` from a U
 
 ## Features
 
-- **Cloud sync**: scrapes `read.amazon.com/notebook` via Playwright; handles Amazon login once and saves the session for future runs
-- **File sync**: parses `My Clippings.txt` from a USB Kindle or a local copy of the file
-- **USB watch mode**: detects when a Kindle is plugged in and triggers a sync automatically
-- **Deduplication**: each highlight gets an MD5 hash; `synced_hashes.json` tracks what's already uploaded so re-running is always safe
-- **Cover art**: fetches book cover images from Amazon's CDN or Google Books API
-- **Highlight export**: pulls all existing Notion book pages to local Markdown files in `book_highlights/`
-- **Cover upgrade**: strips Amazon thumbnail size codes and queries Google Books to find full-resolution images
-- **Collection discovery**: scrapes Amazon MYCD collections so you can map books to Notion themes
+- Cloud sync: scrapes `read.amazon.com/notebook` via Playwright; handles Amazon login once and saves the session for future runs
+- File sync: parses `My Clippings.txt` from a USB Kindle or a local copy of the file
+- USB watch mode: detects when a Kindle is plugged in and triggers a sync automatically
+- Deduplication: each highlight gets an MD5 hash; `synced_hashes.json` tracks what's already uploaded so re-running is always safe
+- Cover art: fetches book cover images from Amazon's CDN or Google Books API
+- Highlight export: pulls all existing Notion book pages to local Markdown files in `book_highlights/`
+- Cover upgrade: strips Amazon thumbnail size codes and queries Google Books to find full-resolution images
+- Collection discovery: scrapes Amazon MYCD collections so you can map books to Notion themes
 
 ---
 
